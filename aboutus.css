@@ -1,0 +1,124 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    list-style: none;
+    text-decoration: none;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    background: color #dee ;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    box-shadow: 0 15px 15px rgba(0, 0, 0,0.05);
+    padding-top: 20px;
+    padding-bottom: 30px;
+    background-color: #80C4E9;
+    margin: 0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    width: 80%;
+    padding-bottom: 2%;
+}
+
+
+.logo{
+    font-size: 2em;
+    user-select: none;
+}
+
+
+ul{
+    width: 60%;
+    gap: 10%;
+    display: grid;
+    list-style: none;
+    grid-template-columns: 20% 20% 20% 20%;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+.a-li{
+    grid-column-start: 1;
+}
+.b-li{
+    grid-column-start: 2;
+}
+.c-li{
+    grid-column-start: 3;
+}
+.d-li{
+    grid-column-start: 4;
+    opacity: 1 !important;
+}
+
+
+li {
+    font-weight: 600;
+}
+a{
+    color: black !important;
+    opacity: 0.6 !important;
+    text-decoration: none;
+}
+
+.every_thing{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto 5%;
+    width: 100%;
+}
+
+.container-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-image: url("medic_office1030x694.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+h1{
+    margin-top: 5%;
+}
+h3{
+    margin-top: 5%;
+}
+.download-app{
+    margin-top: 5%;
+    margin-bottom: 2.5%;
+    padding: 10px 20px;
+    background-color: #80C4E9;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    opacity: 1 !important;
+    transition: background-color 0.3s;
+}
+
+.download-app:hover {
+    background-color: #2f9eda;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    width: 80%;
+}
