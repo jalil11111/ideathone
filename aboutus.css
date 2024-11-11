@@ -43,7 +43,7 @@ ul{
     display: grid;
     list-style: none;
     grid-template-columns: 20% 20% 20% 20%;
-    font-size: 1.2em;
+    font-size: 1rem;
     cursor: pointer;
 }
 .a-li{
@@ -68,6 +68,7 @@ a{
     color: #E7F4FD;
     opacity: 0.6 !important;
     text-decoration: none;
+
 }
 
 .every_thing{
@@ -125,6 +126,7 @@ a{
     border-radius: 5px;
     opacity: 1 !important;
     transition: background-color 0.3s;
+    cursor: pointer;
 }
 
 .download-app:hover {
@@ -220,8 +222,22 @@ ion-icon {
     
 }
 
+p{
+    color: #E7F4FD;
+}
 .opl{
     padding-top: 50px;
     font-size: 2em;
     color: #E7F4FD ;
+}
+
+@media (max-width:1350px){
+    li{
+        font-size: 0.8rem ;
+    }
+}
+@media (max-width:1080px){
+    li{
+        font-size: 0.6rem ;
+    }
 }

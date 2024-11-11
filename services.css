@@ -72,3 +72,15 @@ a{
     text-decoration: none;
     
 }
+
+
+@media (max-width:1350px){
+    li{
+        font-size: 0.8rem ;
+    }
+}
+@media (max-width:1080px){
+    li{
+        font-size: 0.6rem ;
+    }
+}
