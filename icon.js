@@ -6,7 +6,7 @@ function display_func(){
     cnt.style.display = 'flex';
     setTimeout(function(){
         cnt.style.opacity = 1;
-        cnt.style.height = "1800px";
+        cnt.style.height = "150%";
     },10)
 
     let btn = document.getElementById("icn");
