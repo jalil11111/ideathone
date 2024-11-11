@@ -75,7 +75,7 @@ a{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: auto 5%;
+    margin: 0%;
     width: 100%;
 }
 
@@ -224,8 +224,4 @@ ion-icon {
     padding-top: 50px;
     font-size: 2em;
     color: #E7F4FD ;
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 6245eddc4275a5dfd3dd24dde53157fc94e58acd
