@@ -1,3 +1,4 @@
+
 body{
     margin: 0%;
     padding: 0%;
@@ -40,6 +41,7 @@ nav{
 ul{
     width: 60%;
     gap: 10%;
+    margin: auto;
     display: grid;
     list-style: none;
     grid-template-columns: 20% 20% 20% 20%;
@@ -60,7 +62,12 @@ ul{
     opacity: 1 !important;
 }
 
-
+.menu-icon{
+    background-color: #0F7ACA;
+    border: none;
+    font-size: 1.5em;
+    cursor: pointer;
+}
 li {
     font-weight: 600;
 }
@@ -92,6 +99,7 @@ a{
     background-image: url("medic_office1030x694.jpg");
     background-size: cover;
     background-position: center;
+    margin-bottom: 2%;
 }
 
 .contn{
@@ -216,7 +224,7 @@ footer{
 }
 
 
-ion-icon {
+.on-icon {
     font-size: 2rem; 
     transition: transform 0.3s ease; 
     
@@ -252,19 +260,8 @@ h3{
 }
 }
 
-@media (max-width:700px){
 
-h1{
-    font-size: 1em;
-}
-h3{
-    font-size: 0.7em;
-}
-}
-
-
-
-@media (max-width:450px){
+@media (max-width:330px){
 
     h1{
         font-size: 0.8em;
@@ -273,19 +270,39 @@ h3{
         font-size: 0.5em;
     }
     }
-    
-    
-@media (max-width:330px){
 
-    h1{
-        font-size: 0.9em;
-    }
-    h3{
-        font-size: 0.6em;
-    }
+    @media(min-width:850px){
+        .menu-icon{
+            display: none;
+        }
 
-    .opl{
-        font-size: 1.3em;
     }
+@media(max-width:850px){
+    header{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between !important;
+    }
+    
+        ul{
+            display: flex;
+            flex-direction: column;
+            font-size: 1rem;
+            width: 30%;
+            cursor: pointer;
+            position: absolute;
+            right: 0%;
+            top: 0px;
+            background-color: #0F7ACA;
+            height: 0%;
+            display: none;
+            transition: 0.05s ease;
+            z-index: 100;
+
+            box-shadow: -5px 0px 10px rgba(0, 0, 0, 0.3);
+                }
+        li{
+            font-size: 1.3em;
+        }
+
 }
-    
