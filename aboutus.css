@@ -279,7 +279,11 @@ h3{
     @media(min-width:850px){
         .menu-icon{
             display: none;
-        }}
+        }
+        .remove-icon{
+            display: none;            
+        } 
+    }
 
     @media(max-width:850px){
         .lil1{
@@ -329,17 +333,22 @@ h3{
             background-color: #0F7ACA;
             height: 0%;
             transition: 0.05s ease;
-        
             z-index: 100;
-
             box-shadow: -5px 0px 10px rgba(0, 0, 0, 0.3);
                 }
         li{
             font-size: 1.3em;
             display: none;
         }
-        li:first-child{
-            margin-top: 40%;
+        .remove-icon{
+            right: 0%;
+            display: none;
+            border: none;
+            margin-top: 20%;
+            font-size:2em;
+            background-color: #0F7ACA;
+            cursor: pointer;
+            transition: 0.05s;
         }
 
 }
