@@ -1,30 +1,31 @@
+document.getElementById("icn").addEventListener("click", display_func);
+document.getElementById("ricn").addEventListener("click", undisplay_func);
 
-document.getElementById("icn").addEventListener("click",display_func);
-document.getElementById("ricn").addEventListener("click",undisplay_func)
-function display_func(){
+function display_func() {
     let cnt = document.getElementById("ourul");
-    cnt.style.display = 'flex';
-    setTimeout(function(){
-        cnt.style.opacity = 1;
-        cnt.style.height = "150%";
-    },10)
+    cnt.style.display = 'flex'; 
+    setTimeout(function() {
+        cnt.style.opacity = 1;  
+        cnt.style.height = "400px";
+    }, 10);
 
     let btn = document.getElementById("icn");
     btn.style.opacity = 0;
 
-    let ev = document.getElementById("every_thing");
-    ev.style.opacity = 0.7;
-
-    let li = document.getElementById("lil1");
-    li.style.display = 'flex';
-    let li1 = document.getElementById("lil2");
-    li1.style.display = 'flex';
-    let li2 = document.getElementById("lil3");
-    li2.style.display = 'flex';
-    let li3 = document.getElementById("lil4");
-    li3.style.display = 'flex';
     let ri = document.getElementById("ricn");
     ri.style.display = 'flex';
+
+    let li1 = document.getElementById("lil1");
+    li1.style.display = 'flex';
+    let li2 = document.getElementById("lil2");
+    li2.style.display = 'flex';
+    let li3 = document.getElementById("lil3");
+    li3.style.display = 'flex';
+    let li4 = document.getElementById("lil4");
+    li4.style.display = 'flex';
+
+    let ev = document.getElementById("every_thing");
+    ev.style.opacity = 0.7;
 
     let hd = document.getElementById("logo");
     hd.style.opacity = 0.9;
@@ -33,37 +34,41 @@ function display_func(){
     ft.style.opacity = 0.7;
 }
 
-function undisplay_func(){
+function undisplay_func() {
     let cnt = document.getElementById("ourul");
-    cnt.style.opacity = 0; 
-    cnt.style.height = '0';  
+    cnt.style.opacity = 0;  // إخفاء الشفافية
+    cnt.style.height = '0'; // إعادة الارتفاع للصفر
 
-
+    // بعد فترة، إخفاء الـ ul بالكامل
     setTimeout(function() {
-        cnt.style.display = 'none'; 
-    }, 500); 
+        cnt.style.display = 'none';
+    }, 500);
 
+    // إظهار أيقونة القائمة
     let btn = document.getElementById("icn");
     btn.style.opacity = 1;
 
-    let ev = document.getElementById("every_thing");
-    ev.style.opacity = 1;  
-
-
-    setTimeout(function() {
-        document.getElementById("lil1").style.display = 'none';
-        document.getElementById("lil2").style.display = 'none';
-        document.getElementById("lil3").style.display = 'none';
-        document.getElementById("lil4").style.display = 'none';
-    }, 300);
-
+    // إظهار العناصر التي تم إخفائها
     let ri = document.getElementById("ricn");
-    ri.style.display = 'none';
+    ri.style.display = 'none'; // إخفاء أيقونة الإغلاق
 
+    let li1 = document.getElementById("lil1");
+    li1.style.display = 'none';
+    let li2 = document.getElementById("lil2");
+    li2.style.display = 'none';
+    let li3 = document.getElementById("lil3");
+    li3.style.display = 'none';
+    let li4 = document.getElementById("lil4");
+    li4.style.display = 'none';
+
+    // استعادة الشفافية
+    let ev = document.getElementById("every_thing");
+    ev.style.opacity = 1;
+
+    // استعادة الشفافية للـ logo و footer
     let hd = document.getElementById("logo");
     hd.style.opacity = 1;
 
     let ft = document.getElementById("footer");
-    ft.style.opacity = 1; 
-
+    ft.style.opacity = 1;
 }
