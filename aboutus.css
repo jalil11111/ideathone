@@ -149,7 +149,7 @@ a{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 0 2%;
+    margin: 2% 0%;
     padding: 0;
     width: 80%;
 }
@@ -177,7 +177,7 @@ hr {
     justify-content: space-between;
     align-items: center;
     width: 80%;
-    margin: 5% 10%;
+    margin: 10% 0%;
     font-size: 2rem;
     text-align: center;
 }
@@ -190,7 +190,7 @@ footer{
     justify-content: center;
     text-align: center;
     background-color: #0166b4;
-    padding: 0% 40px;
+    padding: 0%;
     margin: 0%;
 }
 
@@ -223,7 +223,7 @@ footer{
 
 
 .icons a {
-    padding: 10px;
+    padding: 10px 0px;
 }
 
 
