@@ -61,6 +61,18 @@ ul{
     grid-column-start: 4;
     opacity: 1 !important;
 }
+.a-li:hover{
+    text-decoration: underline;
+}
+.b-li:hover{
+    text-decoration: underline;
+}
+.c-li:hover{
+    text-decoration: underline;
+}
+.d-li:hover{
+    text-decoration: underline;
+}
 
 .menu-icon{
     background-color: #0F7ACA;
