@@ -36,22 +36,21 @@ function display_func() {
 
 function undisplay_func() {
     let cnt = document.getElementById("ourul");
-    cnt.style.opacity = 0;  // إخفاء الشفافية
-    cnt.style.height = '0'; // إعادة الارتفاع للصفر
+    cnt.style.opacity = 0;
+    cnt.style.height = '0';
 
-    // بعد فترة، إخفاء الـ ul بالكامل
+   
     setTimeout(function() {
         cnt.style.display = 'none';
     }, 500);
 
-    // إظهار أيقونة القائمة
+  
     let btn = document.getElementById("icn");
     btn.style.opacity = 1;
 
-    // إظهار العناصر التي تم إخفائها
+  
     let ri = document.getElementById("ricn");
-    ri.style.display = 'none'; // إخفاء أيقونة الإغلاق
-
+    ri.style.display = 'none';
     let li1 = document.getElementById("lil1");
     li1.style.display = 'none';
     let li2 = document.getElementById("lil2");
@@ -61,11 +60,11 @@ function undisplay_func() {
     let li4 = document.getElementById("lil4");
     li4.style.display = 'none';
 
-    // استعادة الشفافية
+    
     let ev = document.getElementById("every_thing");
     ev.style.opacity = 1;
 
-    // استعادة الشفافية للـ logo و footer
+    
     let hd = document.getElementById("logo");
     hd.style.opacity = 1;
 
