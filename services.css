@@ -7,6 +7,7 @@ body{
     overflow-x: hidden;
     box-sizing: border-box;
     background: color #E7F4FD ;
+    font-family: system-ui;
 }
 
 header{
@@ -105,7 +106,7 @@ a{
 
 .search{
     border: 1px  black solid;
-    width: 60%;
+    width: 100vh;
     border-radius: 20px;
     padding: 13px;
     display: flex;
@@ -115,6 +116,8 @@ a{
     align-items: center;
     flex-direction: row;
     gap: 2px;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 input{
@@ -148,6 +151,75 @@ button{
 }
 button:hover{
     color: black;
+}
+
+
+
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #0166b4;
+    padding: 0%;
+    margin: 0%;
+}
+
+.icons a {
+    color:  #E7F4FD;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+
+.fb:hover {
+    color: #0a3081 !important;
+    transform: scale(1.2);
+}
+
+.ig:hover {
+    color: #e4405f !important;
+    transform: scale(1.2);
+}
+
+.yt:hover {
+    color: #ff0000 !important;
+    transform: scale(1.2); 
+}
+
+.tk:hover {
+    color: #5200cc !important;
+    transform: scale(1.2); 
+}
+
+
+.icons a {
+    padding: 10px 0px;
+}
+
+
+.on-icon {
+    font-size: 2rem; 
+    transition: transform 0.3s ease; 
+    
+}
+
+.opl{
+    padding-top: 50px;
+    font-size: 2em;
+    color: #E7F4FD ;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 10% 0%;
+    font-size: 2rem;
+    text-align: center;
 }
 
 

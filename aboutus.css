@@ -7,6 +7,7 @@ body{
     overflow-x: hidden;
     box-sizing: border-box;
     background: color #E7F4FD ;
+    font-family: system-ui;
 }
 
 header{
@@ -177,6 +178,7 @@ h3{
     text-align: center;
     font-size: 1.3em;
 }
+
 
 hr {
     border: 1px solid #0000005b;  
