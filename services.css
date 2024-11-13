@@ -154,6 +154,115 @@ button:hover{
 }
 
 
+.welcome{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0% 0% 5% 0%;
+    height: 600px;
+    width: 100%;
+    text-align: center;
+    background-image: url("national-cancer-institute-L8tWZT4CcVQ-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+
+.here-u-will-find{
+    width: 60%;
+    background-color: rgba(0, 0, 0, 0.511);
+    padding: 5% 2%;
+    color: #E7F4FD;
+}
+
+h1{
+    margin-bottom: 7%;
+}
+
+.services-posts{
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+/*
+
+.first-post::-webkit-scrollbar{
+        display: none;
+    }
+
+    */
+.first-post{
+    margin: auto;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex: none;
+    height: 800px;
+    /*
+    overflow-x: scroll;
+    overflow-y: none;
+    */
+}
+
+#first-h2-1{
+    margin: auto;
+    height: 400px;
+    width: 400px;
+    background-image: url("first_post_1.jpg");
+    background-size: cover;
+    background-position: center;
+}
+#first-h2-2{
+    margin: auto;
+    height: 400px;
+    width: 400px;
+    background-image: url("first_post_2.jpg");
+    background-size: cover;
+    background-position: center;
+}
+#first-h2-3{
+    margin: auto;
+    height: 400px;
+    width: 400px;
+    background-image: url("first_post_3.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.first-post-pic{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+/*
+
+.img-container {
+    position: relative;
+    width: 100%;
+    height: 100%; 
+  }
+
+.txt{
+    position: absolute; 
+    color: white; 
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px; 
+    font-size: 18px; 
+    font-weight: bold; 
+    border-radius: 5px; 
+  }
+*/
 
 
 footer{
