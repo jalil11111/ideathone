@@ -379,7 +379,7 @@ footer{
         }
 
         .title{
-            font-size: 1.3em;
+            font-size: 1.6em;
         }
         .see-more{
             font-size: 1em;
@@ -458,7 +458,7 @@ footer{
 @media(max-width:450px){
     
     .title{
-        font-size: 1em;
+        font-size: 1.2em;
     }
     .see-more{
         font-size: 0.8em;
