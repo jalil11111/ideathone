@@ -179,90 +179,52 @@ button:hover{
 h1{
     margin-bottom: 7%;
 }
-
-.services-posts{
-    margin: 0%;
-    padding: 0%;
-    width: 100%;
+.services-posts {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-/*
-
-.first-post::-webkit-scrollbar{
-        display: none;
-    }
-
-    */
-.first-post{
-    margin: auto;
-    width: 80%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
     justify-content: center;
     gap: 20px;
-    flex: none;
-    height: 800px;
-    /*
-    overflow-x: scroll;
-    overflow-y: none;
-    */
+    width: 80%;
+    margin: auto;
 }
 
-#first-h2-1{
-    margin: auto;
-    height: 400px;
-    width: 400px;
-    background-image: url("first_post_1.jpg");
-    background-size: cover;
-    background-position: center;
-}
-#first-h2-2{
-    margin: auto;
-    height: 400px;
-    width: 400px;
-    background-image: url("first_post_2.jpg");
-    background-size: cover;
-    background-position: center;
-}
-#first-h2-3{
-    margin: auto;
-    height: 400px;
-    width: 400px;
-    background-image: url("first_post_3.jpg");
-    background-size: cover;
-    background-position: center;
-}
-
-.first-post-pic{
+.first-post {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
+    gap: 20px;
+    overflow-x: scroll;
 }
-/*
 
-.img-container {
+.post-item {
     position: relative;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     width: 100%;
-    height: 100%; 
-  }
+    height: 80%;
+    overflow: hidden;
+    border-radius: 10px;
+}
 
-.txt{
-    position: absolute; 
-    color: white; 
-    background-color: rgba(0, 0, 0, 0.5);
-    padding: 10px; 
-    font-size: 18px; 
-    font-weight: bold; 
-    border-radius: 5px; 
-  }
-*/
+.post-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.overlay-text {
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
 
 
 footer{

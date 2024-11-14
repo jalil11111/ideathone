@@ -39,7 +39,7 @@ nav{
 }
 
 
-ul{
+#ourul{
     width: 60%;
     gap: 10%;
     margin: auto;
@@ -104,6 +104,88 @@ a{
 }
 
 
+.myeve{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0%;
+    width: 100%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+.seck{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 80%;
+    border: black 2px solid;
+    border-radius: 20px;
+    padding: 1% 2%;
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+.title{
+    color: #0F7ACA;
+}
+
+
+.see-more{
+    margin-top: 3%;
+    cursor: pointer;
+    background-color: white;
+    border: none;
+    font-size: 1.5em;
+    color: rgba(0, 0, 0, 0.489);
+}
+
+.see-more:hover{
+    text-decoration: underline;
+}
+
+.hide{
+    margin-top: 3%;
+    cursor: pointer;
+    background-color: white;
+    border: none;
+    font-size: 1.5em;
+    color: rgba(0, 0, 0, 0.489);
+    display: none;
+}
+
+.hide:hover{
+    text-decoration: underline;
+}
+
+.des-1{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    display: none;
+}
+
+.myul{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.sec-li{
+    margin-bottom: 2%;
+    font-size: 1.5rem;
+}
+
+.bc{
+    color: #D71313;
+}
 
 footer{
     display: flex;
@@ -171,6 +253,56 @@ footer{
     text-align: center;
 }
 
+@keyframes see-more {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.see-more {
+    animation: see-more 1.5s infinite;
+    transition: transform 0.2s ease-in-out;
+}
+
+@keyframes hide {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.hide {
+    animation: hide 1.5s infinite;
+    transition: transform 0.2s ease-in-out;
+}
+
+.seck {
+    animation: fade-in 1s ease-out forwards;
+}
+
+
 @media (max-width:1350px){
     li{
         font-size: 0.8rem ;
@@ -206,7 +338,26 @@ footer{
         }
         #lil4{
             font-size: 1em;
+        }        
+        
+        .title{
+            font-size: 1.3em;
         }
+        .see-more{
+            font-size: 1em;
+        }
+                
+        .hide{
+            font-size: 1em;            
+        }
+        .sec-li{
+            font-size: 1rem;
+        }
+
+        .bc{
+            font-size: 1.3rem;
+        }
+        
     }
 
     @media(max-width:600px){
@@ -222,6 +373,23 @@ footer{
         #lil4{
             font-size: 0.8em;
         }
+
+        .title{
+            font-size: 1em;
+        }
+        .see-more{
+            font-size: 0.8em;
+        }
+        .hide{
+            font-size: 0.8em;          
+        }
+        .sec-li{
+            font-size: 0.8rem;
+        }
+
+        .bc{
+            font-size: 1rem;
+        }
     }
 @media(max-width:850px){
     header{
@@ -230,7 +398,7 @@ footer{
         justify-content: space-between !important;
     }
     
-        ul{
+    #ourul{
             display: flex;
             flex-direction: column;
             font-size: 1rem;
@@ -272,4 +440,34 @@ footer{
             transition: 0.05s;
         }
 
+}
+
+@media(min-width:850px){
+    .menu-icon{
+        display: none;
+    }
+    .remove-icon{
+        display: none;            
+    } 
+}
+
+@media(max-width:850px){
+    
+    .title{
+        font-size: 0.6em;
+    }
+    .see-more{
+        font-size: 0.4em;
+    }
+            
+    .sec-li{
+        font-size: 0.4rem;
+    }
+    .hide{
+        font-size: 0.4em;          
+    }
+    .bc{
+        font-size: 0.6rem;
+    }
+    
 }
