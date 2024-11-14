@@ -258,7 +258,7 @@ footer{
         transform: scale(1);
     }
     50% {
-        transform: scale(1.05);
+        transform: scale(1.2);
     }
     100% {
         transform: scale(1);
@@ -275,7 +275,7 @@ footer{
         transform: scale(1);
     }
     50% {
-        transform: scale(1.05);
+        transform: scale(1.2);
     }
     100% {
         transform: scale(1);
