@@ -185,7 +185,7 @@ h3{
         rgba(0, 0, 0, 1) 80%, 
         rgba(0, 0, 0, 0) 100% 
     );
-    gap: 20px;
+    justify-content: space-between;
 }
 
 
@@ -203,7 +203,7 @@ h3{
 
 @keyframes scrollleft {
     from {
-        left: calc(200px * 4); 
+        left: calc(400px * 4); 
     }
     to {
         left: -150%; 
@@ -304,6 +304,19 @@ footer{
     .logo{
         font-size: 1.6em;
     }
+
+    
+.wrapper{
+    height: 400px;
+}
+
+
+
+.walk-img{
+    height: 300px;
+    margin: auto;
+}
+    
 }
 
 @media(min-width:850px){
@@ -335,6 +348,16 @@ footer{
             font-size: 1em;
         }
 
+        .wrapper{
+            height: 350px;
+        }
+        
+        
+        
+        .walk-img{
+            height: 250px;
+            margin: auto;
+        }
             
     }
 
@@ -402,10 +425,42 @@ footer{
     #lil4{
         font-size: 0.8em;
     }
-
+    .wrapper{
+        height: 300px;
+    }
+    
+    
+    
+    .walk-img{
+        height: 200px;
+        margin: auto;
+    }
+}
+@media (max-width:450px) {
+    .wrapper{
+        height: 250px;
+    }
+    
+    
+    
+    .walk-img{
+        height: 150px;
+        margin: auto;
+    }
 }
 
-
+@media (max-width:380px) {
+    .wrapper{
+        height: 200px;
+    }
+    
+    
+    
+    .walk-img{
+        height: 100px;
+        margin: auto;
+    }
+}
 @media (max-width:330px){
     h1{
         font-size: 0.8em;
@@ -413,5 +468,13 @@ footer{
     h3{
         font-size: 0.5em;
     }
-
+    .wrapper{
+        height: 270px;
+    }
+    
+    
+    
+    .walk-img{
+        height: 80px;
+    }
     }
