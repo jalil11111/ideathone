@@ -34,7 +34,15 @@
 
     </header>
 
-    
+    <div>
+        <div class="container-1">
+            <div class="contn">
+            <h1 class="h11">WELCOME TO OUR BUSINNESS</h1>
+            <h3 class="h13" >YOUR ONE-STOP SOLUTION FOR ALL YOUR NEEDS.</h3>
+            <a class="download-app" id="getAPP" onclick="">GET OUR APP NOW</a>
+            <p id="error"></p>
+        </div>
+    </div>
     <footer id="footer">
         <div class="opl">FOLLOW US ON</div>
         <div class="icons">
@@ -53,5 +61,12 @@
         </div>
     </footer>
     <script src="menu.js"></script>
+    <script>
+        document.getElementById("getAPP").addEventListener("click",displayerror)
+        function displayerror(){
+            document.getElementById("error").innerHTML = "this button will work on future";
+        }
+
+    </script>
 </body>
 </html>

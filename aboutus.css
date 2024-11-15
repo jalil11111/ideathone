@@ -98,6 +98,7 @@ a{
     justify-content: center;
     margin: 0%;
     width: 100%;
+    margin-top: 2%;
 }
 
 .container-1{
@@ -108,33 +109,28 @@ a{
     text-align: center;
     margin: 0;
     padding: 0;
-    width: 100%;
-    height: 600px;
-    background-image: url("medic_office1030x694.jpg");
-    background-size: cover;
-    background-position: center;
     margin-bottom: 2%;
 }
 
-.contn{
+.contn{ 
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     margin: 0;
     padding: 0;
-    width: 60%;
-    background-color: rgba(0, 0, 0, 0.5);
-    padding: 20px;
-    border-radius: 10px;
-}
+    width: 50%;
 
+}
+.lgimg{
+    width: 150%;
+}
 .h11{
     margin-top: 5%;
     text-align: center;
     color: #E7F4FD;
 }
-.h13{
+.h13{ 
     color: #E7F4FD;
     margin-top: 5%;
     text-align: center;
