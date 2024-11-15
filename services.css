@@ -232,9 +232,10 @@ h1{
 
     width: 80%;
     margin: auto;
-    background: radial-gradient(circle, #0F7ACA, rgba(0, 0, 0, 0));
+    background: radial-gradient(circle, #ffffff, rgba(0, 0, 0, 0));
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
     animation: float 3s infinite ease-in-out;
+    user-select: none;
     align-items: center;
     justify-content: center;
     text-align: center;
