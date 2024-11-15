@@ -87,3 +87,56 @@ function hide5() {
     let b5 = document.getElementById("display-5");
     b5.style.display = 'block';
 }
+
+function display7() {
+    let d7 = document.getElementById("des-7");
+    d7.style.display = 'block';
+    let h7 = document.getElementById("hide-7");
+    h7.style.display = 'flex';
+    let b7 = document.getElementById("display-7");
+    b7.style.display = 'none';
+}
+
+function hide7() {
+    let d7 = document.getElementById("des-7");
+    d7.style.display = 'none';
+    let h7 = document.getElementById("hide-7");
+    h7.style.display = 'none';
+    let b7 = document.getElementById("display-7");
+    b7.style.display = 'block';
+}
+function display8() {
+    let d8 = document.getElementById("des-8");
+    d8.style.display = 'block';
+    let h8 = document.getElementById("hide-8");
+    h8.style.display = 'flex';
+    let b8 = document.getElementById("display-8");
+    b8.style.display = 'none';
+}
+
+function hide8() {
+    let d8 = document.getElementById("des-8");
+    d8.style.display = 'none';
+    let h8 = document.getElementById("hide-8");
+    h8.style.display = 'none';
+    let b8 = document.getElementById("display-8");
+    b8.style.display = 'block';
+}
+
+function display9() {
+    let d9 = document.getElementById("des-9");
+    d9.style.display = 'block';
+    let h9 = document.getElementById("hide-9");
+    h9.style.display = 'flex';
+    let b9 = document.getElementById("display-9");
+    b9.style.display = 'none';
+}
+
+function hide9() {
+    let d9 = document.getElementById("des-9");
+    d9.style.display = 'none';
+    let h9 = document.getElementById("hide-9");
+    h9.style.display = 'none';
+    let b9 = document.getElementById("display-9");
+    b9.style.display = 'block';
+}
