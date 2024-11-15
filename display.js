@@ -140,3 +140,21 @@ function hide9() {
     let b9 = document.getElementById("display-9");
     b9.style.display = 'block';
 }
+
+function display10() {
+    let d10 = document.getElementById("des-10");
+    d10.style.display = 'block';
+    let h10 = document.getElementById("hide-10");
+    h10.style.display = 'flex';
+    let b10 = document.getElementById("display-10");
+    b10.style.display = 'none';
+}
+
+function hide10() {
+    let d10 = document.getElementById("des-10");
+    d10.style.display = 'none';
+    let h10 = document.getElementById("hide-10");
+    h10.style.display = 'none';
+    let b10 = document.getElementById("display-10");
+    b10.style.display = 'block';
+}
