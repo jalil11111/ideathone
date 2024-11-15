@@ -185,7 +185,6 @@ h3{
         rgba(0, 0, 0, 1) 80%, 
         rgba(0, 0, 0, 0) 100% 
     );
-    justify-content: space-between;
 }
 
 
@@ -211,19 +210,19 @@ h3{
 }
 
 .item1 {
-    animation-delay: calc(20s * -0.75); 
+    animation-delay: -20s; 
 }
 
 .item2 {
-    animation-delay: calc(20s * -0.5);
+    animation-delay: -15s;
 }
 
 .item3 {
-    animation-delay: calc(20s * -0.25); 
+    animation-delay: -10s; 
 }
 
 .item4 {
-    animation-delay: 0s; 
+    animation-delay: -5s; 
 }
 
 footer{
@@ -471,9 +470,6 @@ footer{
     .wrapper{
         height: 270px;
     }
-    
-    
-    
     .walk-img{
         height: 80px;
     }
