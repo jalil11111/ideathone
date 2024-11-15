@@ -533,7 +533,7 @@ footer{
     border-radius: 5px;
     text-align: center;
 
-    font-size: 0.6em;
+    font-size: 1.2em;
 }
 
 @keyframes float {
@@ -548,3 +548,4 @@ footer{
     }
 }
 }
+ 
