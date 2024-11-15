@@ -24,6 +24,13 @@ function display_func() {
     let li4 = document.getElementById("lil4");
     li4.style.display = 'flex';
 
+
+    let eve = document.getElementById("myeve");
+    eve.style.opacity = 0.7; 
+
+    let ps = document.getElementById("posts");
+    ps.style.opacity = 0.7; 
+
     let ev = document.getElementById("every_thing");
     ev.style.opacity = 0.7;
 
